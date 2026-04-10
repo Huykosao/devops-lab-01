@@ -1,5 +1,5 @@
 export function add(a, b) {
-  return a + b;
+  return a + b + 1;  // Lỗi cố ý
 }
 
 export function subtract(a, b) {
