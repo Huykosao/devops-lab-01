@@ -85,7 +85,7 @@ npm test
 ```bash
 git checkout develop
 git pull origin develop
-git checkout -b feature/<MSSV>-add-modulo
+git checkout -b feature/2251220128-add-modulo
 ```
 
 > **Ví dụ:** `feature/20123456-add-modulo`  
@@ -155,7 +155,7 @@ npm test
 ```bash
 git add src/calculator.js tests/calculator.test.js
 git commit -m "feat: add modulo function with unit tests"
-git push origin feature/<MSSV>-add-modulo
+git push origin feature/2251220128-add-modulo
 ```
 
 ---
@@ -216,7 +216,7 @@ Commit và push:
 
 ```bash
 git commit -am "test: simulate CI fail"
-git push origin feature/<MSSV>-add-modulo
+git push origin feature/2251220128-add-modulo
 ```
 
 Trên GitHub → tab **Checks**: CI sẽ chuyển sang **đỏ**, nút "Merge pull request" bị khoá.  
@@ -232,7 +232,7 @@ function add(a, b) {
 
 ```bash
 git commit -am "fix: restore correct add function"
-git push origin feature/<MSSV>-add-modulo
+git push origin feature/2251220128-add-modulo
 ```
 
 CI sẽ chạy lại và chuyển sang **xanh**. PR có thể merge.

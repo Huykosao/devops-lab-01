@@ -1,5 +1,5 @@
 export function add(a, b) {
-  return a + b;
+  return a + b;  // Đã sửa
 }
 
 export function subtract(a, b) {
@@ -10,6 +10,12 @@ export function multiply(a, b) {
   return a * b;
 }
 
+export function modulo(a, b) {
+  if (b === 0) {
+    throw new Error('Cannot modulo by zero');
+  }
+  return a % b;
+}
 
 export function divide(a, b) {
   if (b === 0) {
@@ -17,5 +23,7 @@ export function divide(a, b) {
   }
   return a / b;
 }
+
+module.exports = { add, subtract, multiply, divide, modulo };
 
 
