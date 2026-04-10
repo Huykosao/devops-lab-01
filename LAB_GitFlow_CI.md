@@ -232,7 +232,7 @@ function add(a, b) {
 
 ```bash
 git commit -am "fix: restore correct add function"
-git push origin feature/<MSSV>-add-modulo
+git push origin feature/2251220128-add-modulo
 ```
 
 CI sẽ chạy lại và chuyển sang **xanh**. PR có thể merge.
